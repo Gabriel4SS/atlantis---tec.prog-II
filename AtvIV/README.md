@@ -14,11 +14,7 @@ Entre na pasta sistema e execute os seguintes comandos no terminal(cmd):
 
 ### `npm install`
 
-### `npm install typescript`
-
-### `npx tsc`
-
-### `node .\js\teste\index.js`
+### `npm start`
 
 <hr>
 

@@ -1,0 +1,19 @@
+.login {
+    background-image: url('../../public/imagens/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-container .btn {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.btn-container .btn:last-child {
+    margin-right: 0;
+}

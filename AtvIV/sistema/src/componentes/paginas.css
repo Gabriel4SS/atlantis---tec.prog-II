@@ -1,0 +1,103 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('../../public/imagens/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; 
+    z-index: -1; 
+}
+
+text{
+    text-align: center;
+}
+
+.custom-navbar .container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+.custom-logo {
+    height: 60px;
+}
+
+.custom-nav-item {
+    margin-right: 20px; /* Adiciona espaçamento entre os itens */
+}
+
+.custom-nav-link {
+    color: #fff !important;
+    cursor: pointer;
+}
+
+.custom-deslogar {
+    display: flex;
+    align-items: center;
+}
+
+.custom-deslogar-text {
+    margin: 0;
+    color: #fff;
+}
+
+.custom-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.custom-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.custom-card .card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.custom-card .btn-primary {
+    background-color: #3e82ca;
+    border-color: #3e82ca;
+}
+
+.custom-card .btn-primary:hover {
+    background-color: #336699;
+    border-color: #336699;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+@media (max-width: 576px) {
+    .custom-card {
+        margin-bottom: 1rem;
+    }
+}
+
+.list-group-item {
+    border-bottom: 1px solid #000; /* Borda sólida preta */
+    margin-bottom: 10px; /* Espaço entre os itens */
+}
